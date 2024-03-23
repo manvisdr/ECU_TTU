@@ -1,0 +1,12 @@
+{
+  "token": "c16cd1ac-1ece-5ee5-77f3-f6224d1e1344",
+  "timestamp": "2024-01-20T15:09:38Z",
+  "body": {
+    "resource": "AppAuthFailAlarm",
+    "qualifier": "lxc03,Daqo104",
+    "alt-resource": 1,
+    "event-time": "2024-01-20T15:09:38.00Z",
+    "perceived-severity": "Warning",
+    "alarm-text": {}
+  }
+}

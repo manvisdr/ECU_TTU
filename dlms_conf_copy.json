@@ -1,0 +1,72 @@
+[
+  {
+    "app": "customerMeter",
+    "body": [
+      {
+        "devId": 1,
+        "type": 1,
+        "com": "COM1",
+        "baudRate": 9600,
+        "clientAddress": 1,
+        "serverAddress": 240,
+        "auth": "low",
+        "password": "22222222",
+        "interface": "HDLC",
+        "securityLevel": "None",
+        "serialNumber": "00104192",
+        "obis": [
+          {
+            "name": "sn",
+            "type": "data",
+            "obis": "0.0.96.1.0.255"
+          },
+          {
+            "name": "Volt",
+            "type": "register",
+            "obis": "1.0.32.7.0.255"
+          },
+          {
+            "name": "Current",
+            "type": "register",
+            "obis": "1.0.31.7.0.255"
+          },
+          {
+            "name": "pF",
+            "type": "register",
+            "obis": "1.0.33.7.0.255"
+          },
+          {
+            "name": "watt",
+            "type": "register",
+            "obis": "1.0.21.7.0.255"
+          },
+          {
+            "name": "var",
+            "type": "register",
+            "obis": "1.0.3.7.0.255"
+          },
+          {
+            "name": "pos_kwh",
+            "type": "register",
+            "obis": "1.0.1.8.0.255"
+          },
+          {
+            "name": "pos_varh",
+            "type": "register",
+            "obis": "1.0.3.8.0.255"
+          },
+          {
+            "name": "neg_kwh",
+            "type": "register",
+            "obis": "1.0.2.8.0.255"
+          },
+          {
+            "name": "neg_varh",
+            "type": "register",
+            "obis": "1.0.4.8.0.255"
+          }
+        ]
+      }
+    ]
+  }
+]

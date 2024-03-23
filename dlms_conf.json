@@ -1,0 +1,101 @@
+[
+  {
+    "app": "customerMeter",
+    "body": [
+      {
+        "devId": 1,
+        "type": 1,
+        "com": "COM4",
+        "baudRate": 9600,
+        "clientAddress": 48,
+        "serverAddress": 28672,
+        "auth": "low",
+        "password": "22222222",
+        "securityLevel": "None",
+        "obis": [
+          {
+            "name": "sn",
+            "type": "data",
+            "obis": "0.0.96.1.0.255"
+          },
+          {
+            "name": "phV_phsA",
+            "type": "register",
+            "obis": "1.0.32.7.0.255"
+          }
+        ]
+      },
+      {
+        "devId": 2,
+        "type": 3,
+        "com": "COM2",
+        "baudRate": 9600,
+        "clientAddress": 16,
+        "serverAddress": 1,
+        "auth": "None",
+        "password": "",
+        "obis": [
+          {
+            "name": "sn",
+            "type": "data",
+            "obis": "0.0.96.1.0.255"
+          },
+          {
+            "name": "phV_phsA",
+            "type": "register",
+            "obis": "1.0.32.7.0.255"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "app": "LVMeter",
+    "body": [
+      {
+        "devId": 1,
+        "type": 1,
+        "com": "COM2",
+        "baudRate": 9600,
+        "clientAddress": 16,
+        "serverAddress": 1,
+        "auth": "None",
+        "password": "",
+        "obis": [
+          {
+            "name": "sn",
+            "type": "data",
+            "obis": "0.0.96.1.0.255"
+          },
+          {
+            "name": "phV_phsA",
+            "type": "register",
+            "obis": "1.0.32.7.0.255"
+          }
+        ]
+      },
+      {
+        "devId": 2,
+        "type": 3,
+        "com": "COM2",
+        "baudRate": 9600,
+        "clientAddress": 16,
+        "serverAddress": 1,
+        "auth": "None",
+        "password": "",
+        "obis": [
+          {
+            "name": "sn",
+            "type": "data",
+            "obis": "0.0.96.1.0.255"
+          },
+          {
+            "name": "phV_phsA",
+            "type": "register",
+            "obis": "1.0.32.7.0.255"
+          }
+        ]
+      }
+    ]
+  }
+]

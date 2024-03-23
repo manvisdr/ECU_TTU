@@ -1,0 +1,126 @@
+[
+  {
+    "app": "customerMeter",
+    "body": [
+      {
+        "devId": 1,
+        "type": 1,
+        "com": "COM4",
+        "baudRate": 9600,
+        "clientAddress": 48,
+        "serverAddress": 28672,
+        "auth": "low",
+        "password": "22222222",
+        "securityLevel": "None",
+        "serialNumber": "00104192",
+        "obis": [
+          {
+            "name": "sn",
+            "type": "data",
+            "obis": "0.0.96.1.0.255"
+          },
+          {
+            "name": "current_R",
+            "type": "register",
+            "obis": "1.0.31.7.0.255"
+          },
+          {
+            "name": "current_S",
+            "type": "register",
+            "obis": "1.0.51.7.0.255"
+          },
+          {
+            "name": "current_T",
+            "type": "register",
+            "obis": "1.0.71.7.0.255"
+          },
+          {
+            "name": "current_neutral",
+            "type": "register",
+            "obis": "1.0.91.7.0.255"
+          },
+          {
+            "name": "volt_R",
+            "type": "register",
+            "obis": "1.0.32.7.0.255"
+          },
+          {
+            "name": "volt_S",
+            "type": "register",
+            "obis": "1.0.52.7.0.255"
+          },
+          {
+            "name": "volt_T",
+            "type": "register",
+            "obis": "1.0.72.7.0.255"
+          },
+          {
+            "name": "pF",
+            "type": "register",
+            "obis": "1.0.13.7.0.255"
+          },
+          {
+            "name": "watt",
+            "type": "register",
+            "obis": "1.0.1.7.0.255"
+          },
+          {
+            "name": "watt_R",
+            "type": "register",
+            "obis": "1.0.21.7.0.255"
+          },
+          {
+            "name": "watt_S",
+            "type": "register",
+            "obis": "1.0.41.7.0.255"
+          },
+          {
+            "name": "watt_T",
+            "type": "register",
+            "obis": "1.0.61.7.0.255"
+          },
+          {
+            "name": "var",
+            "type": "register",
+            "obis": "1.0.3.7.0.255"
+          },
+          {
+            "name": "var_R",
+            "type": "register",
+            "obis": "1.0.23.7.0.255"
+          },
+          {
+            "name": "var_S",
+            "type": "register",
+            "obis": "1.0.43.7.0.255"
+          },
+          {
+            "name": "var_T",
+            "type": "register",
+            "obis": "1.0.63.7.0.255"
+          },
+          {
+            "name": "pos_kwh",
+            "type": "register",
+            "obis": "1.0.1.8.0.255"
+          },
+          {
+            "name": "pos_varh",
+            "type": "register",
+            "obis": "1.0.3.8.0.255"
+          },
+          {
+            "name": "neg_kwh",
+            "type": "register",
+            "obis": "1.0.2.8.0.255"
+          },
+          {
+            "name": "neg_varh",
+            "type": "register",
+            "obis": "1.0.4.8.0.255"
+          }
+        ]
+      }
+    ]
+  }
+]

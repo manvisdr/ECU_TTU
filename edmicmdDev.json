@@ -1,0 +1,36 @@
+[
+  {
+    "app": "LVMeter",
+    "list": [
+      {
+        "type": "MK10E",
+        "serialNumber": "218169134",
+        "voltRatio" : 1,
+        "wattRatio":1,
+        "currentRatio":1,
+        "kwhRatio" :1
+      },
+      {
+        "type": "MK10E",
+        "serialNumber": "217072470",
+        "voltRatio" : 1000,
+        "wattRatio":1000000,
+        "currentRatio":1000,
+        "kwhRatio" :1000
+      }
+    ]
+  },
+  {
+    "app": "MVMeter",
+    "list": [
+      {
+        "type": "MK6N",
+        "serialNumber": "219946708",
+        "voltRatio" : 1000,
+        "wattRatio":1000000,
+        "currentRatio":1000,
+        "kwhRatio" :1000
+      }
+    ]
+  }
+]
